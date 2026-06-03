@@ -518,10 +518,9 @@ async function sendMessage() {
   appendTyping();
 
   // ⚠️ REEMPLAZÁ el texto de abajo con tu API Key de OpenAI
-  const OPENAI_API_KEY = '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';
-
+  
   try {
-    const response = await fetch('https://api.openai.com/v1/chat/completions', {
+    const response = await fetch('https://renty-proxyy.maxigrecovic.workers.dev', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
